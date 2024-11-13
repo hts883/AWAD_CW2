@@ -15,24 +15,28 @@
                 <div class="content-wrapper">
 
 
-                    <table border="5" cellpadding="10" cellspacing="0">
+                    <table>
                         <thead>
                             <tr>
-                                <th>Name</th>
-                                <th>Description</th>
-                                <th>Credit Hours</th>
-                                <th>Actions</th>
+                                <th>course</th>
+                                <th>date</th>
+                                <th>student_id</th>
+                                <th>status</th>
+                                <th>semester</th>
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach($courses as $course)
+                            @foreach($enrollments as $enrollment)
                                 <tr>
-                                    <td>{{ $course->name }}</td>
-                                    <td>{{ $course->description }}</td>
-                                    <td>{{ $course->credit_hours }}</td>
+                                    <td>{{ $enrollment->course }}</td>
+                                    <td>{{ $enrollment->date }}</td>
+                                    <td>{{ $enrollment->student_id }}</td>
+                                    <td>{{ $enrollment->status }}</td>
+                                    <td>{{ $enrollment->semester }}</td>
                                     <td>
-                                        <a href="{{ route('course.edit', $course->id) }}">Edit</a>
-                                        <form action="{{ route('course.destroy', $course->id) }}" method="POST" style="display:inline;">
+
+                                        <a href="{{ route('enrollment.edit', $enrollment->id) }}">Edit</a>
+                                        <form action="{{ route('enrollment.destroy', $enrollment->id) }}" method="POST" style="display:inline;">
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit">Delete</button>

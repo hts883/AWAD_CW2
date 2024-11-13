@@ -15,7 +15,7 @@
                 <div class="content-wrapper">
                     <div class="page-header">
                         <h3 class="page-title">
-                            Dashboard
+                            HTS STUDENTS MANAGEMENT SYSTEM
                         </h3>
                     </div>
                     <div class="row grid-margin">
@@ -26,7 +26,7 @@
                                         <div class="statistics-item">
                                             <p>
                                                 <i class="icon-sm fa fa-user mr-2"></i>
-                                                New users
+                                                New students
                                             </p>
                                             <h2>54000</h2>
                                             <label class="badge badge-outline-success badge-pill">2.7% increase</label>
@@ -34,7 +34,7 @@
                                         <div class="statistics-item">
                                             <p>
                                                 <i class="icon-sm fas fa-hourglass-half mr-2"></i>
-                                                Avg Time
+                                                Avg course Time
                                             </p>
                                             <h2>123.50</h2>
                                             <label class="badge badge-outline-danger badge-pill">30% decrease</label>
@@ -42,7 +42,7 @@
                                         <div class="statistics-item">
                                             <p>
                                                 <i class="icon-sm fas fa-cloud-download-alt mr-2"></i>
-                                                Downloads
+                                                Progress
                                             </p>
                                             <h2>3500</h2>
                                             <label class="badge badge-outline-success badge-pill">12% increase</label>
@@ -50,7 +50,7 @@
                                         <div class="statistics-item">
                                             <p>
                                                 <i class="icon-sm fas fa-check-circle mr-2"></i>
-                                                Update
+                                                Updated records
                                             </p>
                                             <h2>7500</h2>
                                             <label class="badge badge-outline-success badge-pill">57% increase</label>
@@ -58,7 +58,7 @@
                                         <div class="statistics-item">
                                             <p>
                                                 <i class="icon-sm fas fa-chart-line mr-2"></i>
-                                                Sales
+                                                Grades
                                             </p>
                                             <h2>9000</h2>
                                             <label class="badge badge-outline-success badge-pill">10% increase</label>
@@ -66,7 +66,7 @@
                                         <div class="statistics-item">
                                             <p>
                                                 <i class="icon-sm fas fa-circle-notch mr-2"></i>
-                                                Pending
+                                                Performance
                                             </p>
                                             <h2>7500</h2>
                                             <label class="badge badge-outline-danger badge-pill">16% decrease</label>
@@ -82,7 +82,7 @@
                                 <div class="card-body">
                                     <h4 class="card-title">
                                         <i class="fas fa-gift"></i>
-                                        Orders
+                                        Performance
                                     </h4>
                                     <canvas id="orders-chart"></canvas>
                                     <div id="orders-chart-legend" class="orders-chart-legend"></div>
@@ -94,9 +94,9 @@
                                 <div class="card-body">
                                     <h4 class="card-title">
                                         <i class="fas fa-chart-line"></i>
-                                        Sales
+                                        Enrollment rates
                                     </h4>
-                                    <h2 class="mb-5">56000 <span class="text-muted h4 font-weight-normal">Sales</span>
+                                    <h2 class="mb-5">56000 <span class="text-muted h4 font-weight-normal">Enrollments</span>
                                     </h2>
                                     <canvas id="sales-chart"></canvas>
                                 </div>

@@ -96,7 +96,7 @@
                 </div>
               </div>
               <div class="preview-item-content">
-                <h6 class="preview-subject font-weight-medium">New user registration</h6>
+                <h6 class="preview-subject font-weight-medium">New students </h6>
                 <p class="font-weight-light small-text">
                   2 days ago
                 </p>
@@ -169,7 +169,7 @@
               Settings
             </a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item">
+            <a  class="dropdown-item">
               <i class="fas fa-power-off text-primary"></i>
               Logout
             </a>

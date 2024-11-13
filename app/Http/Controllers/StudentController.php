@@ -14,6 +14,25 @@ class StudentController extends Controller
         return view('backend.students.index', compact('students'));
     }
 
+
+
+
+
+
+
+
+    public function report()
+{
+    // Get all students
+    $students = Student::all();
+    
+    // Count total number of students
+    $totalStudents = $students->count();
+
+    return view('backend.students.report', compact('students', 'totalStudents'));
+}
+
+
     // Show the form for creating a new student
     public function create()
     {
